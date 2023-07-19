@@ -11,6 +11,6 @@ pipeline {
     
     triggers {
         // Poll SCM trigger to check for changes on the GitHub repository
-        pollSCM('** * * * *') // Poll every minute
+        pollSCM('* * * * * *') // Poll every minute
     }
 }
